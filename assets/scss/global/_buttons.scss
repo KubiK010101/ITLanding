@@ -10,9 +10,8 @@
   font-size: 18px;
   line-height: 18px;
   color: #FFFFFF;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  
+  padding: 26px 37px;
+
   transition: all 0.2s ease-in-out;
   
   &:hover {
@@ -37,5 +36,11 @@
   &_sm{
     padding: 16px 27px;
     font-size: 14px;
+  }
+  &_mt40{
+    margin-top: 40px;
+  }
+  &_mt32{
+    margin-top: 32px;
   }
 }
