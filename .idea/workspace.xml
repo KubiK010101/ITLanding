@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/global/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_type.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/pages/main/page-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/main/page-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/start-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="24vxIdtTMMhqR86kl2WuWcSYfBh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,7 +55,7 @@
       <updated>1644524782319</updated>
       <workItem from="1644524783853" duration="1780000" />
       <workItem from="1644536649592" duration="2399000" />
-      <workItem from="1644577124196" duration="9526000" />
+      <workItem from="1644577124196" duration="10379000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1644539064930</created>
@@ -79,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644582370036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="my first commit">
+      <created>1644588920531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644588920531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,17 +98,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="my first commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1644582368906">
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1644588918276">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1644582368906" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1644582371845">
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1644588918276" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1644588923828">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644582371845" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644588923828" />
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1644577235462">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1644577235462" />
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644590081671">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644590081671" />
   </component>
 </project>
