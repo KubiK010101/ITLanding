@@ -1,0 +1,35 @@
+.page-main{
+  &__title{
+    padding-top: 178px;
+  }
+  &__sub-title{
+    font-size: 18px;
+    line-height: 29px;
+    color: #546175;
+  }
+  &__card{
+    background: #EBEFFF;
+    box-shadow: 60px 60px 150px rgba(0, 69, 255, 0.16), inset -16px -16px 24px rgba(0, 69, 255, 0.08), inset 16px 16px 24px #F6FAFF;
+    border-radius: 30px;
+    width: 100%;
+    padding: 40px;
+
+  }
+  &__card-item{
+    position: relative;
+    background: #EBEFFF;
+    box-shadow: -4px -4px 6px #F6FAFF, 4px 4px 6px rgba(0, 69, 255, 0.08);
+    border-radius: 14px;
+    padding: 20px;
+  }
+  &__card-itm-title{
+    
+  }
+  &__line{
+    height: 5px;
+    width: 0%;
+    background: #D8E2FA;
+    border-radius: 10px;
+    margin-bottom: 4px;
+  }
+}
