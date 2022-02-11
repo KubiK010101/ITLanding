@@ -1,19 +1,15 @@
 
 .btn {
   @include reset-button();
-  
-  background-color: $brand-color;
-  
+
+  background: #0045FF;
+  border-radius: 100px;
   text-align: center;
-  border-radius: 0;
-  color: #fff;
-
   font-family: $font-family;
-  font-size: 16px;
-  font-weight: 700;
-
-  line-height: 20px;
-
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
   padding-top: 20px;
   padding-bottom: 20px;
   
@@ -37,5 +33,9 @@
     color: #fff;
     text-decoration: none !important;
     outline: none !important;
+  }
+  &_sm{
+    padding: 16px 27px;
+    font-size: 14px;
   }
 }
