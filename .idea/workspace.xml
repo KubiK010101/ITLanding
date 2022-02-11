@@ -78,10 +78,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="my first commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1644539062321">
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1644582350374">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1644539062321" />
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1644582350374" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1644582357729">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644582357729" />
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1644577235462">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
