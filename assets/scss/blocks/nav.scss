@@ -12,6 +12,16 @@
   &__list-item{
     display: inline;
     padding-right: 54px;
+    color: #202F44;
+    &:hover{
+      color: #202F44;
+      opacity: 0.8;
+      text-decoration: none;
+    }
+    @media (max-width: 1199.98px) {
+      padding-right: 15px;
+    }
+
     &:last-child{
       padding-right: 0;
     }
@@ -19,5 +29,19 @@
   &__number{
     padding-right: 24px;
     display: inline-block;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #202F44;
+    &:hover{
+      color: #202F44;
+      opacity: 0.8;
+      text-decoration: none;
+    }
+    @media (max-width: 1199.98px) {
+      padding-right: 5px;
+      font-size: 16px;
+    }
   }
 }
