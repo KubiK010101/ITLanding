@@ -1,3 +1,5 @@
+<<<<<<< Updated upstream
+=======
 *,
 *::before,
 *::after {
@@ -275,48 +277,31 @@ h6,
   font-weight: 700;
   margin-bottom: 40px; }
 
-h2,
-.h2 {
+h1,
+.h1 {
   font-family: 'Inter', sans-serif;
   margin-bottom: 26px;
   font-weight: 600;
   font-size: 54px;
   line-height: 70px;
   color: #202F44; }
-  @media (max-width: 1399.98px) {
-    h2,
-    .h2 {
+  @media (max-width: 1199.98px) {
+    h1,
+    .h1 {
       font-size: 46px;
       line-height: 50px; } }
-  @media (max-width: 991.98px) {
-    h2,
-    .h2 {
-      font-size: 35px;
-      line-height: 37px;
-      text-align: center; } }
-  @media (max-width: 575.98px) {
-    h2,
-    .h2 {
-      font-size: 26px;
-      line-height: 28px; } }
 
-h3,
-.h3 {
+h2,
+.h2 {
   font-family: 'Inter', sans-serif;
   font-size: 42px;
   font-weight: 600;
   line-height: 55px;
   color: #202F44; }
-  @media (max-width: 991.98px) {
-    h3,
-    .h3 {
-      font-size: 38px;
-      line-height: 42px; } }
-  @media (max-width: 575.98px) {
-    h3,
-    .h3 {
-      font-size: 22px;
-      line-height: 28px; } }
+
+h3,
+.h3 {
+  font-size: 26px; }
 
 h4,
 .h4 {
@@ -1430,11 +1415,6 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 40px; }
   .btn_mt32 {
     margin-top: 32px; }
-  @media (max-width: 991.98px) {
-    .btn {
-      padding: 18px 28px;
-      font-size: 16px;
-      line-height: 16px; } }
 
 .d-none {
   display: none !important; }
@@ -3767,9 +3747,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  @media (max-width: 991.98px) {
-    .nav {
-      display: none; } }
   .nav__list {
     font-weight: 500;
     font-size: 16px;
@@ -3878,28 +3855,16 @@ input[type="radio"].visually-hidden {
     -webkit-transform: translateY(-50%) rotate(-180deg);
             transform: translateY(-50%) rotate(-180deg); }
 
+.owl-overlap .owl-item {
+  height: 100%; }
+
 .page-main__header {
   padding-top: 178px; }
-
-@media (max-width: 991.98px) {
-  .page-main__title {
-    text-align: center; } }
 
 .page-main__sub-title {
   font-size: 18px;
   line-height: 29px;
   color: #546175; }
-  @media (max-width: 991.98px) {
-    .page-main__sub-title {
-      text-align: center; } }
-
-@media (max-width: 991.98px) {
-  .page-main__btn {
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block; } }
 
 .page-main__card {
   background: #EBEFFF;
@@ -3910,9 +3875,6 @@ input[type="radio"].visually-hidden {
   @media (max-width: 1199.98px) {
     .page-main__card {
       padding: 25px; } }
-  @media (max-width: 991.98px) {
-    .page-main__card {
-      margin-top: 70px; } }
 
 .page-main__card-item {
   position: relative;
@@ -3974,6 +3936,16 @@ input[type="radio"].visually-hidden {
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column; }
+  .page-main__services-card_text-wrapper {
+    min-height: 222px;
+    padding: 0;
+    margin: 0; }
+    @media (max-width: 575.98px) {
+      .page-main__services-card_text-wrapper {
+        min-height: 275px; } }
+    @media (max-width: 399.98px) {
+      .page-main__services-card_text-wrapper {
+        min-height: 350px; } }
   .page-main__services-card_title {
     font-family: 'Inter', sans-serif;
     font-size: 28px;
@@ -3985,8 +3957,7 @@ input[type="radio"].visually-hidden {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
-    margin-bottom: 68px; }
+    line-height: 22px; }
   .page-main__services-card_img-wrapper {
     height: 300px;
     overflow: hidden; }
@@ -3996,12 +3967,15 @@ input[type="radio"].visually-hidden {
   .page-main__services-card_technology-wrapper {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 28px; }
   .page-main__services-card_technology {
     padding: 10px 16px;
     background: #E6EDFF;
     border-radius: 100px;
     margin-right: 10px;
+    margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -4030,97 +4004,6 @@ input[type="radio"].visually-hidden {
       background: url("../img/page-main/card-link-arrow.svg");
       background-size: contain;
       background-repeat: no-repeat; }
-
-.simplify__title {
-  text-align: center;
-  margin-bottom: 24px; }
-
-.simplify__sub-title {
-  text-align: center;
-  font-size: 18px;
-  line-height: 29px;
-  color: #546175;
-  margin-bottom: 60px; }
-
-.simplify__card-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
-  max-width: 1410px;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-  @media (max-width: 1199.98px) {
-    .simplify__card-wrapper {
-      -ms-flex-pack: center;
-          justify-content: center; } }
-
-.simplify__card-col {
-  -ms-flex: 0 0 25%;
-      flex: 0 0 25%;
-  max-width: 25%;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (max-width: 1199.98px) {
-    .simplify__card-col {
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-      max-width: 40%; } }
-  @media (max-width: 575.98px) {
-    .simplify__card-col {
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-      max-width: 100%; } }
-
-.simplify__card {
-  background: #EEF0FF;
-  box-shadow: 6px 6px 8px rgba(0, 69, 255, 0.08), -6px -6px 8px #F6FAFF;
-  border-radius: 16px;
-  padding: 40px 40px 80px;
-  width: 100%;
-  height: 280px;
-  max-width: 320px; }
-  @media (max-width: 1199.98px) {
-    .simplify__card {
-      padding: 40px 30px 20px;
-      margin-bottom: 20px; } }
-  @media (max-width: 991.98px) {
-    .simplify__card {
-      height: 240px; } }
-  @media (max-width: 767.98px) {
-    .simplify__card {
-      height: 240px;
-      padding: 40px 10px 40px; } }
-
-.simplify__card-img {
-  width: 32px;
-  height: 32px; }
-
-.simplify__card-title {
-  padding-top: 28px;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 34px;
-  color: #202F44; }
-  @media (max-width: 1399.98px) {
-    .simplify__card-title {
-      font-size: 20px;
-      line-height: 24px; } }
-  @media (max-width: 767.98px) {
-    .simplify__card-title {
-      font-size: 18px;
-      line-height: 20px; } }
-
-.simplify__text-bottom {
-  padding-top: 60px;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 39px;
-  text-align: center;
-  color: #202F44; }
 
 body {
   position: relative;
@@ -4158,3 +4041,13 @@ body {
   @media (min-width: 1660px) {
     .app-container {
       max-width: 1660px; } }
+
+.position-relative {
+  position: relative; }
+
+.position-none {
+  position: initial; }
+
+body {
+  overflow-x: hidden; }
+>>>>>>> Stashed changes
