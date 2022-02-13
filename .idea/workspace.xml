@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/simplify.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/service-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/service-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/service-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/service-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/service-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/service-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/service-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/service-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/service-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/service-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/global/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_type.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/main/page-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/main/page-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/main/page-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/page-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/start-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/img.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/img.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/sass.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AVIA" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,7 +68,11 @@
       <updated>1644524782319</updated>
       <workItem from="1644524783853" duration="1780000" />
       <workItem from="1644536649592" duration="2399000" />
-      <workItem from="1644577124196" duration="10379000" />
+      <workItem from="1644577124196" duration="11769000" />
+      <workItem from="1644598120303" duration="618000" />
+      <workItem from="1644620922892" duration="5387000" />
+      <workItem from="1644766306213" duration="433000" />
+      <workItem from="1644767522544" duration="7596000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1644539064930</created>
@@ -85,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644588920531</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1644590471366</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644590471366</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,24 +119,33 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="my first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="my first commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1644588918276">
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1644590469839">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1644588918276" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1644588923828">
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1644590469839" />
+    <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1644622193440">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644588923828" />
-    <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1644577235462">
+    <state x="740" y="315" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1644622193440" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1644590473005">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1644577235462" />
-    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644590081671">
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644590473005" />
+    <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1644767523778">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644590081671" />
+    <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1644767523778" />
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644766312266">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1644766312266" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1644769651142">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1644769651142" />
   </component>
 </project>

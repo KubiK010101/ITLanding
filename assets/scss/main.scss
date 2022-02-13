@@ -21,7 +21,8 @@
 // OWL
 @import "blocks/owl/owl-carousel-overlap.scss";
 //pages
-@import "pages/main/page-main";
+@import "pages/page-main/page-main";
+@import "pages/page-main/simplify";
 body {
     position: relative;
     background-color: #EBEFFF;
@@ -65,18 +66,5 @@ body {
     @media (min-width: 1660px) {
         max-width: 1660px;
     }
-
-
 }
 
-.position-relative {
-    position: relative;
-}
-
-.position-none {
-    position: initial;
-}
-
-body {
-    overflow-x: hidden;
-}

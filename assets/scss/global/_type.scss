@@ -16,33 +16,53 @@ h6,
     font-weight: 700;
     margin-bottom: 40px;
 }
-
 h1,
-.h1 {
+.h1{
+
+}
+h2,
+.h2 {
     font-family: 'Inter', sans-serif;
     margin-bottom: 26px;
     font-weight: 600;
     font-size: 54px;
     line-height: 70px;
     color: #202F44;
-    @media (max-width: 1199.98px) {
+    @media (max-width: 1399.98px) {
         font-size: 46px;
         line-height: 50px;
     }
+    @media (max-width: 991.98px) {
+        font-size: 35px;
+        line-height: 37px;
+        text-align: center;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 26px;
+        line-height: 28px;
+    }
 }
 
-h2,
-.h2 {
+h3,
+.h3 {
     font-family: 'Inter', sans-serif;
     font-size: 42px;
     font-weight: 600;
     line-height: 55px;
     color: #202F44;
+    @media (max-width: 991.98px) {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 22px;
+        line-height: 28px;
+    }
 }
 
 h3,
 .h3 {
-    font-size: 26px;
+
 }
 
 h4,

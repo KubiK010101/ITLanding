@@ -11,7 +11,7 @@ module.exports = function() {
             , 'Opera >= 30'
         ];
 
-        return $.gulp.src('assets/scss/main.scss')
+        return $.gulp.src('assets/scss/page-main.scss')
             .pipe($.gp.sass())
             .pipe($.gp.autoprefixer({
                 overrideBrowserslist: autoprefixerList
@@ -23,7 +23,7 @@ module.exports = function() {
             .pipe($.gulp.dest('build/css/'))
             // Минифицированная версия
             .pipe($.gp.sass({outputStyle: 'compressed'}))
-            .pipe($.gp.rename('main.min.css'))
+            .pipe($.gp.rename('page-main.min.css'))
             .pipe($.gulp.dest('build/css/'))
             .pipe($.bs.reload({
                 stream:true

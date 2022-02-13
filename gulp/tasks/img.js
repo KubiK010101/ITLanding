@@ -11,9 +11,9 @@ module.exports = function() {
 	                speed: 1,
 	                quality: [0.95, 1] //lossy settings
 	            }),
-	            imageminZopfli({
-	                more: true
-	            }),
+	            // imageminZopfli({
+	            //     more: true
+	            // }),
 	            imageminGiflossy({
 	                optimizationLevel: 3,
 	                optimize: 3, //keep-empty: Preserve empty transparent frames
