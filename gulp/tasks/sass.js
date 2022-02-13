@@ -1,17 +1,10 @@
 module.exports = function() {
-    $.gulp.task('sass', function(){
+    $.gulp.task('sass', function() {
         var autoprefixerList = [
-            'Chrome >= 45'
-            , 'Firefox ESR'
-            , 'Edge >= 12'
-            , 'Explorer >= 10'
-            , 'iOS >= 9'
-            , 'Safari >= 9'
-            , 'Android >= 4.4'
-            , 'Opera >= 30'
+            'Chrome >= 45', 'Firefox ESR', 'Edge >= 12', 'Explorer >= 10', 'iOS >= 9', 'Safari >= 9', 'Android >= 4.4', 'Opera >= 30'
         ];
 
-        return $.gulp.src('assets/scss/page-main.scss')
+        return $.gulp.src('assets/scss/main.scss')
             .pipe($.gp.sass())
             .pipe($.gp.autoprefixer({
                 overrideBrowserslist: autoprefixerList
@@ -22,11 +15,11 @@ module.exports = function() {
             }))
             .pipe($.gulp.dest('build/css/'))
             // Минифицированная версия
-            .pipe($.gp.sass({outputStyle: 'compressed'}))
-            .pipe($.gp.rename('page-main.min.css'))
+            .pipe($.gp.sass({ outputStyle: 'compressed' }))
+            .pipe($.gp.rename('main.min.css'))
             .pipe($.gulp.dest('build/css/'))
             .pipe($.bs.reload({
-                stream:true
+                stream: true
             }));
     });
 }
