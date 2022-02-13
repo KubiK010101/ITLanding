@@ -1,26 +1,70 @@
 .owl-overlap {
+    &__side-content {
+        &.drag {
+            transition: none;
+        }
+        transition: all .25s;
+        @media (max-width: 991.98px) {
+            margin-bottom: 100px;
+        }
+    }
+    &__wrapper {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        right: 0;
+        width: auto;
+        z-index: 100;
+        transform: translateY(-50%);
+        @media (max-width: 991.98px) {
+            position: initial;
+            transform: none;
+        }
+    }
     .owl-stage-outer {
         overflow: visible !important;
     }
-    .owl-card {
-        max-width: 450px;
-        &__inner {
-            padding: 32px;
-            display: flex;
-            flex-direction: column;
+    .owl-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 32px;
+        @media (max-width: 991.98px) {
+            justify-content: center;
         }
-        &__title {
-            font-family: 'Inter', sans-serif;
-            font-size: 28px;
-            font-weight: 600;
-            line-height: 36px;
-            color: #202F44;
+    }
+    .owl-prev {
+        width: 54px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        border: 1px solid #202F44!important;
+        position: relative;
+        & span {
+            display: none;
         }
-        &__description {
-            font-family: 'Inter', sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 22px;
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            top: 50%;
+            width: 22px;
+            height: 14px;
+            transform: translateY(-50%);
+            background-image: url('../img/owl/owl-arrow.svg');
+        }
+    }
+    .owl-next {
+        @extend .owl-prev;
+        margin-left: 26px;
+        &::after {
+            transform: translateY(-50%) rotate(-180deg);
         }
     }
 }
