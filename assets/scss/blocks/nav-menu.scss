@@ -32,7 +32,6 @@ $dark-color: #004499;
         position: absolute;
         top: 25px;
         right: 25px;
-        color: $cyan-color;
         cursor: pointer;
         z-index: 1;
         display: flex;
@@ -62,7 +61,6 @@ $dark-color: #004499;
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: $cyan-color;
         clip-path: circle(0px at 0 0px);
         transition: 0.5s ease all;
         &__links {
