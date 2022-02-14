@@ -1,0 +1,29 @@
+.request {
+    &__button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    &__policies,
+    &__link {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    &__policies {
+        margin-top: 32px;
+        color: #546175;
+    }
+    &__link {
+        color: #0045FF;
+        &:hover,
+        &:active,
+        &:focus {
+            text-decoration: none;
+        }
+        &:hover {
+            color: #001c69;
+        }
+    }
+}

@@ -106,4 +106,6 @@ dist
 # Gulp build file
 
 build/
+build/start-page.html
+build/css/main.css
 .idea/vcs.xml

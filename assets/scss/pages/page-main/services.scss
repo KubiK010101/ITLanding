@@ -1,0 +1,98 @@
+.services {
+    overflow: hidden;
+}
+
+.services-container {
+    padding: 300px 0 298px;
+}
+
+.services-card {
+    box-shadow: 0px 8px 40px 0px #202F441A;
+    background: #FFFFFF;
+    border-radius: 18px;
+    width: 450px;
+    max-width: calc(100vw - 30px);
+    overflow: hidden;
+    &__content {
+        padding: 32px;
+    }
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    &__text-wrapper {
+        min-height: 222px;
+        padding: 0;
+        margin: 0;
+        @media (max-width: 575.98px) {
+            min-height: 275px;
+        }
+        @media (max-width: 399.98px) {
+            min-height: 350px;
+        }
+    }
+    &__title {
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+        color: #202F44;
+        margin-bottom: 12px;
+    }
+    &__description {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        // margin-bottom: 68px;
+    }
+    &__img-wrapper {
+        height: 300px;
+        overflow: hidden;
+    }
+    &__img {
+        object-fit: cover;
+        height: 100%;
+    }
+    &__technology-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 28px;
+    }
+    &__technology {
+        padding: 10px 16px;
+        background: #E6EDFF;
+        border-radius: 100px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        color: #0045FF;
+    }
+    &__link-wrapper {
+        display: flex;
+    }
+    &__link {
+        position: relative;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #0045FF;
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 21px;
+            height: 12px;
+            right: -33px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url('../img/page-main/card-link-arrow.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+}
