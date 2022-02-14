@@ -4,6 +4,10 @@
 .page-main {
     &__header {
         padding-top: 178px;
+        padding-bottom: 250px;
+        @media (max-width: 991.98px) {
+            padding-bottom: 100px;
+        }
     }
     &__title {
         @media (max-width: 991.98px) {
@@ -32,7 +36,7 @@
         box-shadow: 60px 60px 150px rgba(0, 69, 255, 0.16), inset -16px -16px 24px rgba(0, 69, 255, 0.08), inset 16px 16px 24px #F6FAFF;
         border-radius: 30px;
         width: 100%;
-        padding: 40px;
+        padding: 40px 40px 0 40px;
         @media (max-width: 1199.98px) {
             padding: 25px;
         }
@@ -41,6 +45,7 @@
         }
     }
     &__card-item {
+        height: 210px;
         position: relative;
         background: #EBEFFF;
         box-shadow: -4px -4px 6px #F6FAFF, 4px 4px 6px rgba(0, 69, 255, 0.08);
@@ -64,6 +69,10 @@
             font-size: 14px;
             line-height: 16px;
         }
+        @media (max-width: 1199.98px) { 
+            font-size: 13px;
+        }
+
     }
     &__card-img {
         width: 70px;
@@ -83,5 +92,6 @@
         &_mt50 {
             margin-top: 50px;
         }
-    }
+  }
 }
+
