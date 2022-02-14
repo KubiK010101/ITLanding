@@ -106,3 +106,4 @@ dist
 # Gulp build file
 
 build/
+.idea/vcs.xml
