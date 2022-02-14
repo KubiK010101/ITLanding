@@ -1,6 +1,7 @@
 @import './services.scss';
 @import './simplify.scss';
 @import './request.scss';
+@import './change.scss';
 .page-main {
     &__header {
         padding-top: 178px;
@@ -69,10 +70,9 @@
             font-size: 14px;
             line-height: 16px;
         }
-        @media (max-width: 1199.98px) { 
+        @media (max-width: 1199.98px) {
             font-size: 13px;
         }
-
     }
     &__card-img {
         width: 70px;
@@ -92,6 +92,5 @@
         &_mt50 {
             margin-top: 50px;
         }
-  }
+    }
 }
-
