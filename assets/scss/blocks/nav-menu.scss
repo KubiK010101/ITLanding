@@ -32,8 +32,9 @@ $dark-color: #004499;
         position: absolute;
         top: 25px;
         right: 25px;
+        color: $default-color;
         cursor: pointer;
-        z-index: 1;
+        z-index: 9001;
         display: flex;
         i {
             &:nth-of-type(1) {
@@ -43,7 +44,7 @@ $dark-color: #004499;
                 display: none;
             }
         }
-        &.burger-open {
+        &.open {
             color: $dark-color;
             i {
                 &:nth-of-type(1) {
@@ -56,83 +57,90 @@ $dark-color: #004499;
         }
     }
     &__content {
-        position: absolute;
+        position: fixed;
+        overflow: hidden;
+        z-index: 9000;
         top: 0;
         left: 0;
-        height: 100%;
+        height: 100vh;
         width: 100%;
+        background-color: $default-color;
         clip-path: circle(0px at 0 0px);
         transition: 0.5s ease all;
-        &__links {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            li {
-                list-style-type: none;
-                margin: 3rem 0;
-                &:nth-of-type(1) {
-                    @extend %transition;
-                    &.open {
-                        @extend %opacity;
-                        transition-delay: 0.25s;
-                    }
-                }
-                &:nth-of-type(2) {
-                    @extend %transition;
-                    &.open {
-                        @extend %opacity;
-                        transition-delay: 0.35s;
-                    }
-                }
-                &:nth-of-type(3) {
-                    @extend %transition;
-                    &.open {
-                        @extend %opacity;
-                        transition-delay: 0.45s;
-                    }
-                }
-                &:nth-of-type(4) {
-                    @extend %transition;
-                    &.open {
-                        @extend %opacity;
-                        transition-delay: 0.55s;
-                    }
-                }
-                &:nth-of-type(5) {
-                    @extend %transition;
-                    &.open {
-                        @extend %opacity;
-                        transition-delay: 0.65s;
-                    }
-                }
-                a {
-                    text-decoration: none;
-                    color: $dark-color;
-                    font-size: 2.4rem;
-                    position: relative;
-                    text-transform: uppercase;
-                    letter-spacing: 1px;
-                    &::before {
-                        @extend %hover;
-                        top: -2px;
-                    }
-                    &::after {
-                        @extend %hover;
-                        bottom: -5px;
-                    }
-                    &:hover::before {
-                        width: 100%;
-                    }
-                    &:hover::after {
-                        width: 100%;
-                    }
-                }
-            }
-        }
         &.open {
             display: block;
             clip-path: circle(100%);
         }
     }
+    &__links {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        li {
+            list-style-type: none;
+            margin: 3rem 0;
+            &:nth-of-type(1) {
+                @extend %transition;
+                &.open {
+                    @extend %opacity;
+                    transition-delay: 0.25s;
+                }
+            }
+            &:nth-of-type(2) {
+                @extend %transition;
+                &.open {
+                    @extend %opacity;
+                    transition-delay: 0.35s;
+                }
+            }
+            &:nth-of-type(3) {
+                @extend %transition;
+                &.open {
+                    @extend %opacity;
+                    transition-delay: 0.45s;
+                }
+            }
+            &:nth-of-type(4) {
+                @extend %transition;
+                &.open {
+                    @extend %opacity;
+                    transition-delay: 0.55s;
+                }
+            }
+            &:nth-of-type(5) {
+                @extend %transition;
+                &.open {
+                    @extend %opacity;
+                    transition-delay: 0.65s;
+                }
+            }
+            a {
+                text-decoration: none;
+                color: $dark-color;
+                font-size: 2.4rem;
+                position: relative;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                &::before {
+                    @extend %hover;
+                    top: -2px;
+                }
+                &::after {
+                    @extend %hover;
+                    bottom: -5px;
+                }
+                &:hover::before {
+                    width: 100%;
+                }
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+body.no-scroll {
+    overflow-y: hidden;
 }

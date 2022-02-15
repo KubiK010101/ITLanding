@@ -1,0 +1,15 @@
+.info-board {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background: #0045FF;
+    border-radius: 18px;
+    &__text {
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 39px;
+        color: #fff;
+    }
+}
