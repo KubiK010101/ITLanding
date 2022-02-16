@@ -1,37 +1,4 @@
 .request {
-    position: relative;
-    overflow-x: hidden;
-    &__pic {
-        position: absolute;
-        display: block;
-        z-index: -5;
-        object-fit: contain;
-        &_1 {
-            left: 40px;
-            top: 0;
-            @media (max-width: 991.98px) {
-                left: 20px;
-                width: 30%;
-            }
-            @media (max-width: 767.98px) {
-                top: 75px;
-                left: -75px;
-                width: 50%;
-            }
-        }
-        &_2 {
-            right: 80px;
-            bottom: 0;
-            @media (max-width: 991.98px) {
-                right: 40px;
-                width: 30%;
-            }
-            @media (max-width: 767.98px) {
-                right: -75px;
-                width: 50%;
-            }
-        }
-    }
     &__button-wrapper {
         display: flex;
         justify-content: center;
