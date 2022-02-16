@@ -7,10 +7,10 @@
 <div class="nav">
     <div class="app-container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-sm-auto order-1 order-lg-1">
+            <div class="col-md-auto order-1 order-lg-1">
                 <img src="img/logo.svg" alt="" class="nav__logo">
             </div>
-            <div class="col-sm-12 col-lg-auto order-3 order-lg-2">
+            <div class="d-none d-md-block col-md-12 col-lg-auto order-3 order-lg-2">
                 <div class="nav__list d-flex justify-content-center mt-4 mt-lg-0">
 
                     <a href="#" class="nav__list-item">Услуги</a>
@@ -29,10 +29,24 @@
 
                 </div>
             </div>
-            <div class="col-sm-auto order-2 order-lg-3">
+            <div class="d-none d-md-block col-md-auto order-2 order-lg-3">
                 <a href="#" class="nav__number">8 (800) 550-27-58</a>
                 <button class="btn btn_sm nav__btn">Заказать звонок</button>
             </div>
+            <div class="nav-menu__burger d-md-none">
+                <i class="fas fa-bars fa-2x"></i>
+                <i class="fas fa-times fa-2x"></i>
+            </div>
+
+            <nav class="nav-menu__content">
+                <ul class="nav-menu__links">
+                    <li class="nav-menu__link"><a href="#">Home</a></li>
+                    <li class="nav-menu__link"><a href="#">Blog</a></li>
+                    <li class="nav-menu__link"><a href="#">Gallery</a></li>
+                    <li class="nav-menu__link"><a href="#">About</a></li>
+                    <li class="nav-menu__link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -475,6 +489,8 @@
 </div>
 
 <div class="request">
+    <img src="/img/page-main/request-pic-1.svg" class="request__pic request__pic_1">
+    <img src="/img/page-main/request-pic-2.svg" class="request__pic request__pic_2">
     <div class="app-container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-6">
