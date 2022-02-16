@@ -7,10 +7,10 @@
 <div class="nav">
     <div class="app-container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-sm-auto order-1 order-lg-1">
+            <div class="col-md-auto order-1 order-lg-1">
                 <img src="img/logo.svg" alt="" class="nav__logo">
             </div>
-            <div class="col-sm-12 col-lg-auto order-3 order-lg-2">
+            <div class="d-none d-md-block col-md-12 col-lg-auto order-3 order-lg-2">
                 <div class="nav__list d-flex justify-content-center mt-4 mt-lg-0">
 
                     <a href="#" class="nav__list-item">Услуги</a>
@@ -29,10 +29,24 @@
 
                 </div>
             </div>
-            <div class="col-sm-auto order-2 order-lg-3">
+            <div class="d-none d-md-block col-md-auto order-2 order-lg-3">
                 <a href="#" class="nav__number">8 (800) 550-27-58</a>
                 <button class="btn btn_sm nav__btn">Заказать звонок</button>
             </div>
+            <div class="nav-menu__burger d-md-none">
+                <i class="fas fa-bars fa-2x"></i>
+                <i class="fas fa-times fa-2x"></i>
+            </div>
+
+            <nav class="nav-menu__content">
+                <ul class="nav-menu__links">
+                    <li class="nav-menu__link"><a href="#">Home</a></li>
+                    <li class="nav-menu__link"><a href="#">Blog</a></li>
+                    <li class="nav-menu__link"><a href="#">Gallery</a></li>
+                    <li class="nav-menu__link"><a href="#">About</a></li>
+                    <li class="nav-menu__link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -121,7 +135,7 @@
                                         <p class="page-main__card-item-title">
                                             Повышение лояльности потребителей
                                         </p>
-                                  
+
                                     </div>
                                 </div>
                                 <div class="d-flex no-gutters page-main__line_mt50">
@@ -475,6 +489,8 @@
 </div>
 
 <div class="request">
+    <img src="/img/page-main/request-pic-1.svg" class="request__pic request__pic_1">
+    <img src="/img/page-main/request-pic-2.svg" class="request__pic request__pic_2">
     <div class="app-container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-6">
@@ -506,8 +522,138 @@
         </div>
     </div>
 </div>
-</div>
+<div class="plan">
+    <div class="app-container">
+        <div class="row justify-content-center plan__card-block">
+            <div class="col-md-12 col-lg-4">
+                <h3 class="plan__title">
+                    Приступаем к проекту в день обращения
+                </h3>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="plan__card">
+                            Берёмся за выполнение задачи в течение 24 часов с момента подписания договора
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="plan__card">
+                            Заранее обговариваем сроки выполнения работ и фиксируем их в документах
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="plan__card plan__card_mt30">
+                            Всегда строго укладываемся во временные рамки без ущерба для качества
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12 col-lg-6 order-2 order-lg-1">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="plan__card">
+                            Доказываем свою добросовестность реальными результатами вместо обещаний
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="plan__card">
+                            Ваш персональный менеджер предоставляет еженедельный отчет о проделанной работе и стадии готовности проекта
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-4 order-1 order-lg-2 ">
+                <h3 class="plan__title">
+                    Честность — главный принцип в работе Boost Technology
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="change">
+    <div class="app-container">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="change__title-wrapper">
+                    <h3 class="page-main__title">
+                        Откажитесь от бизнеса «по накатанной» — меняйтесь
+                    </h3>
+                    <p class="page-main__sub-title">
+                        Агентство полного цикла воплощает креативные идеи для комплексного продвижения. Обращайтесь к нашим специалистам на любой стадии развития вашего бизнеса. Услуги подойдут тем, кто готов получать прибыль в разы больше.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-5 col-xl-3">
+                <div class="change__card">
+                    <div class="change__card-img-wrapper">
+                        <img src="/img/page-main/change-card-img/startup.svg" alt="" class="change__card-img">
+                    </div>
+                    <div class="change__card-content">
+                        <h5 class="change__card-title">
+                            Стартап
+                        </h5>
+                        <p class="change__card-description">
+                            Развивайте бизнес-идею согласно чёткой маркетинговой стратегии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-5 col-xl-3">
+                <div class="change__card">
+                    <div class="change__card-img-wrapper">
+                        <img src="/img/page-main/change-card-img/small-business.svg" alt="" class="change__card-img">
+                    </div>
+                    <div class="change__card-content">
+                        <h5 class="change__card-title">
+                            Малый бизнес
+                        </h5>
+                        <p class="change__card-description">
+                            Вы запустили свой проект недавно и ищете пути масштабирования
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-5 col-xl-3">
+                <div class="change__card">
+                    <div class="change__card-img-wrapper">
+                        <img src="/img/page-main/change-card-img/medium-business.svg" alt="" class="change__card-img">
+                    </div>
+                    <div class="change__card-content">
+                        <h5 class="change__card-title">
+                            Средний бизнес
+                        </h5>
+                        <p class="change__card-description">
+                            Выделяйтесь выгодно среди конкурентов, чтобы занять своё место под солнцем
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-5 col-xl-3">
+                <div class="change__card">
+                    <div class="change__card-img-wrapper">
+                        <img src="/img/page-main/change-card-img/brand.svg" alt="" class="change__card-img">
+                    </div>
+                    <div class="change__card-content">
+                        <h5 class="change__card-title">
+                            Раскрученый бренд
+                        </h5>
+                        <p class="change__card-description">
+                            Вы хотите выйти на международный рынок и занять новый уровень
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="order-services">
     <div class="app-container">
         <div class="row justify-content-center">
@@ -525,6 +671,7 @@
         </div>
     </div>
 </div>
+
 
 </div>
 
