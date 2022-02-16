@@ -20,6 +20,7 @@
         background-color: darken($brand-color, 10%);
     }
     &:active,
+    &:focus,
     &:hover {
         color: #fff;
         text-decoration: none !important;
@@ -48,5 +49,8 @@
     background-color: #FFFFFF;
     &:active {
         color: #fff;
+    }
+    &:focus {
+        color: #0045FF;
     }
 }

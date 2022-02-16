@@ -25,32 +25,17 @@
     }
     &__card-content {
         text-align: center;
-        @media (max-width: 1599.98px) {
-            min-height: 210px;
-        }
-        @media (max-width: 1399.98px) {
-            min-height: 270px;
-        }
-        @media (max-width: 1199.98px) {
-            min-height: auto;
-        }
     }
     &__card-title {
         font-family: 'Inter', sans-serif;
         font-size: 26px;
         font-weight: 600;
         line-height: 34px;
-        min-height: 68px;
-        margin-bottom: 6px;
     }
     &__card-description {
         font-family: 'Inter', sans-serif;
         font-size: 18px;
         font-weight: 400;
         line-height: 29px;
-        margin-bottom: 0;
-        @media(max-width: 991.98px) {
-            min-height: calc(29px * 5);
-        }
     }
 }
