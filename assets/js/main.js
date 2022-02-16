@@ -438,21 +438,6 @@ $(".agree-checkbox").each(function() {
     }
 });
 
-// NAV MENU
-
-const burger = document.querySelector('.nav-menu__burger');
-const navbar = document.querySelector('.nav-menu__content');
-const navLink = document.querySelectorAll('.nav-menu__link');
-
-burger.addEventListener('click', () => {
-    navbar.classList.toggle('open');
-    burger.classList.toggle('open');
-    navLink.forEach(link => {
-        link.classList.toggle('open');
-    })
-    $(document.body).toggleClass('no-scroll');
-});
-
 // OWL SIDE
 
 const numericInterpolation = (from, to, percent) => {
