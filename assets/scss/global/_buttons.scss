@@ -1,51 +1,52 @@
-
 .btn {
-  @include reset-button();
+    @include reset-button();
+    background: #0045FF;
+    border-radius: 100px;
+    text-align: center;
+    font-family: $font-family;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 26px 37px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        background-color: lighten($brand-color, 5%);
+        box-shadow: none;
+    }
+    &:active {
+        transform: translateY(3px);
+        box-shadow: none;
+        background-color: darken($brand-color, 10%);
+    }
+    &:active,
+    &:hover {
+        color: #fff;
+        text-decoration: none !important;
+        outline: none !important;
+    }
+    &_sm {
+        padding: 16px 27px;
+        font-size: 14px;
+    }
+    &_mt40 {
+        margin-top: 40px;
+    }
+    &_mt32 {
+        margin-top: 32px;
+    }
+    @media (max-width: 991.98px) {
+        padding: 18px 28px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
 
-  background: #0045FF;
-  border-radius: 100px;
-  text-align: center;
-  font-family: $font-family;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 18px;
-  color: #FFFFFF;
-  padding: 26px 37px;
-
-  transition: all 0.2s ease-in-out;
-  
-  &:hover {
-    background-color: lighten($brand-color, 5%);
-    box-shadow: none;
-
-  }
-  
-  &:active {
-    transform: translateY(3px);
-    box-shadow: none;
-    background-color: darken($brand-color, 10%);
-  }
-  
-  &:active,
-  &:focus,
-  &:hover {
-    color: #fff;
-    text-decoration: none !important;
-    outline: none !important;
-  }
-  &_sm{
-    padding: 16px 27px;
-    font-size: 14px;
-  }
-  &_mt40{
-    margin-top: 40px;
-  }
-  &_mt32{
-    margin-top: 32px;
-  }
-  @media (max-width: 991.98px) {
-    padding: 18px 28px;
-    font-size: 16px;
-    line-height: 16px;
-  }
+.btn-light {
+    @extend .btn;
+    color: #0045FF;
+    background-color: #FFFFFF;
+    &:active {
+        color: #fff;
+    }
 }
