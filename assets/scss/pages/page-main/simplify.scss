@@ -1,18 +1,21 @@
-.simplify{
+.simplify {
   padding-top: 100px;
   padding-bottom: 100px;
-  &__title{
+
+  &__title {
     text-align: center;
     margin-bottom: 24px;
   }
-  &__sub-title{
+
+  &__sub-title {
     text-align: center;
     font-size: 18px;
     line-height: 29px;
     color: #546175;
     margin-bottom: 60px;
   }
-  &__card-wrapper{
+
+  &__card-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,7 +26,8 @@
       justify-content: center;
     }
   }
-  &__card-col{
+
+  &__card-col {
     flex: 0 0 25%;
     max-width: 25%;
     padding-left: 15px;
@@ -37,7 +41,8 @@
       max-width: 100%;
     }
   }
-  &__card{
+
+  &__card {
     background: #EEF0FF;
     box-shadow: 6px 6px 8px rgba(0, 69, 255, 0.08), -6px -6px 8px #F6FAFF;
     border-radius: 16px;
@@ -48,7 +53,7 @@
     max-width: 320px;
     @media (max-width: 1199.98px) {
       padding: 40px 30px 20px;
-      margin-bottom: 20px;
+      margin: 0 0 20px;
     }
     @media (max-width: 991.98px) {
       height: 240px;
@@ -57,13 +62,19 @@
       height: 240px;
       padding: 40px 10px 40px;
     }
+    @media (max-width: 575.98px) {
+      margin: 0 auto 20px;
+
+    }
 
   }
-  &__card-img{
+
+  &__card-img {
     width: 32px;
     height: 32px;
   }
-  &__card-title{
+
+  &__card-title {
     padding-top: 28px;
     font-weight: 600;
     font-size: 26px;
@@ -71,15 +82,16 @@
     color: #202F44;
     @media (max-width: 1399.98px) {
       font-size: 20px;
-      line-height:24px;
+      line-height: 24px;
     }
     @media (max-width: 767.98px) {
-     font-size: 18px;
+      font-size: 18px;
       line-height: 20px;
     }
 
   }
-  &__text-bottom{
+
+  &__text-bottom {
     padding-top: 60px;
     font-weight: 500;
     font-size: 28px;
