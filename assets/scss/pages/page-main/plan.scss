@@ -1,6 +1,16 @@
 .plan{
     padding-top: 200px;
+    padding-bottom: 100px;
     box-shadow: 0px 0px 70px rgba(32, 47, 68, 0.2);
+    @media (max-width: 767.98px) {
+        padding-top: 100px;
+        padding-bottom: 75px;
+    }
+    &__title{
+        @media (max-width: 991.98px) {
+            text-align: center;
+        }
+    }
     &__card{
         padding: 30px;
         background: #FFFFFF;
@@ -11,15 +21,41 @@
         font-size: 24px;
         line-height: 34px;
         color: #202F44;
+        @media (max-width: 1199.98px) {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        @media (max-width: 991.98px) {
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 767.98px) {
+            font-size: 18px;
+            line-height: 20px;
+        }
         &_mt30{
             margin-top: 30px;
+            @media (max-width: 991.98px) {
+                margin-top: 0;
+            }
         }
         &_h196{
             height: 196px;
         }
+        &_h230{
+            height: auto;
+            min-height: 230px;
+            @media (max-width: 1199.98px) {
+                min-height: auto;
+            }
+        }
     }
     &__card-block{
-            margin-bottom: 200px;
+        margin-bottom: 200px;
+        @media (max-width: 1199.98px) {
+            margin-bottom: 100px;
+        }
     }
 
 }

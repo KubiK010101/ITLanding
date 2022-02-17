@@ -1,16 +1,36 @@
 .info-board {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 40px 60px;
     background: #0045FF;
     border-radius: 18px;
+    max-width: 1345px;
+    flex-direction: row;
+    @media (max-width: 991.98px) {
+         flex-direction: column;
+    }
     &__text {
-        font-family: 'Inter', sans-serif;
         font-size: 28px;
         font-weight: 500;
         line-height: 39px;
         color: #fff;
         margin: 0;
+        @media (max-width: 991.98px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+    &__btn{
+        margin-left: 75px;
+        min-width: 230px;
+        @media (max-width: 991.98px) {
+            display: block;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right:auto;
+            margin-top: 40px;
+        }
     }
 }

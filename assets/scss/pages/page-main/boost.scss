@@ -1,0 +1,25 @@
+.boost{
+  padding-top: 100px;
+  &__title{
+    margin-bottom: 60px;
+  }
+  &__list{
+    font-size: 18px;
+    line-height: 25px;
+    color: #546175;
+    list-style: none;
+  }
+  &__list-item{
+    padding-bottom: 16px;
+    position: relative;
+    &:before{
+      content: " ";
+      position: absolute;
+      background-image: url("../../../img/page-main/check.svg");
+      width: 20px;
+      height: 20px;
+      left: -30px;
+      top: 10px;
+    }
+  }
+}

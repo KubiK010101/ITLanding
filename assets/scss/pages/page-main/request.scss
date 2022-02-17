@@ -1,6 +1,14 @@
 .request {
     position: relative;
     overflow-x: hidden;
+    padding-bottom: 170px;
+    &__title{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    &__sub-title{
+        text-align: center;
+    }
     &__pic {
         position: absolute;
         display: block;
