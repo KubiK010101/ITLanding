@@ -42,10 +42,14 @@
         border-radius: 100%;
         border: 1px solid #202F44!important;
         position: relative;
+        &:hover {
+            opacity: .8;
+        }
         & span {
             display: none;
         }
-        &::after {
+        &::after,
+        &:active::after {
             content: '';
             position: absolute;
             display: block;
@@ -58,6 +62,13 @@
             height: 14px;
             transform: translateY(-50%);
             background-image: url('../img/owl/owl-arrow.svg');
+            transition: transform .2s;
+        }
+        &:hover::after {
+            transform: translate(-1px, -50%);
+        }
+        &:active::after {
+            transform: translate(-2px, -50%);
         }
     }
     .owl-next {
@@ -65,6 +76,12 @@
         margin-left: 26px;
         &::after {
             transform: translateY(-50%) rotate(-180deg);
+        }
+        &:hover::after {
+            transform: translate(1px, -50%) rotate(-180deg);
+        }
+        &:active::after {
+            transform: translate(2px, -50%) rotate(-180deg);
         }
     }
     .owl-item {

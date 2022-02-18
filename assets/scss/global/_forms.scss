@@ -225,6 +225,6 @@ input,
 button,
 form {
     &:focus {
-        border: none;
+        outline: none;
     }
 }
