@@ -1,0 +1,115 @@
+.projects {
+    overflow: hidden;
+    &__shadow {
+        box-shadow: 0px 0px 70px rgba(32, 47, 68, 0.2);
+    }
+}
+
+.projects-container {
+    padding: 320px 0 298px;
+}
+
+.projects-card {
+    box-shadow: 0px 8px 40px 0px #202F441A;
+    box-shadow: 0px 8px 40px rgba(32, 47, 68, 0.1);
+    border-radius: 18px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    width: 450px;
+    max-width: calc(100vw - 30px);
+    overflow: hidden;
+    &__content {
+        padding: 32px;
+    }
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    &__text-wrapper {
+        margin-bottom: 24px;
+    }
+    &__title {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 18px;
+        color: #202F44;
+        margin-bottom: 12px;
+    }
+    &__description {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #546175;
+        // margin-bottom: 68px;
+    }
+    &__img-wrapper {
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+    &__img-shadow {
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    &__img-title {
+        position: absolute;
+        left: 32px;
+        right: 32px;
+        top: 32px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+        color: #fff;
+    }
+    &__img {
+        object-fit: cover;
+        height: 100%;
+    }
+    &__technology-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 28px;
+    }
+    &__technology {
+        padding: 10px 16px;
+        background: #E6EDFF;
+        border-radius: 100px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        color: #0045FF;
+    }
+    &__link-wrapper {
+        display: flex;
+    }
+    &__link {
+        position: relative;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #0045FF;
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 21px;
+            height: 12px;
+            right: -33px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url('../img/page-main/card-link-arrow.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+}

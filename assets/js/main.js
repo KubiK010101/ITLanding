@@ -514,8 +514,8 @@ const colorInterpolation = (from, to, percent) => {
 const bindStyles = ({ events, ...params }) => {
 
     const bindCallback = () => {
-        const source = params.source.jqElement;
-        let sourceProperty = source[0].style[params.source.property];
+        const source = params.source.element;
+        let sourceProperty = source.style[params.source.property];
 
         params.source.regex.lastIndex = 0;
         sourceProperty = params.source.regex.exec(sourceProperty);
@@ -529,9 +529,9 @@ const bindStyles = ({ events, ...params }) => {
             (params.source.range[1] - params.source.range[0]);
 
         for (let i = 0; i < params.targets.length; i++) {
-            const target = params.targets[i].jqElement;
+            const target = params.targets[i].element;
 
-            let targetProperty = target[0];
+            let targetProperty = target;
 
 
 
@@ -560,7 +560,7 @@ const bindStyles = ({ events, ...params }) => {
     let observer = new MutationObserver(function(mutations) {
         mutations.forEach(() => bindCallback(params));
     });
-    observer.observe(params.source.jqElement[0], { attributes: true, attributeFilter: ["style"] });
+    observer.observe(params.source.element, { attributes: true, attributeFilter: ["style"] });
     for (let item of events) {
         item.jqElement.on(item.event, () => {
             bindCallback(params)
@@ -570,51 +570,69 @@ const bindStyles = ({ events, ...params }) => {
 };
 
 $(document).ready(function() {
-    $(".owl-overlap").owlCarousel({
-        loop: false,
-        margin: 10,
-        nav: true,
-        dots: false,
-        autoWidth: true,
-        onDrag: function(e) {
-            $(".owl-overlap__side-content").addClass("drag");
-        },
-        onDragged: function(e) {
-            $(".owl-overlap__side-content").removeClass("drag");
-        },
-        onInitialized: function(e) {
-            bindStyles({
-                source: {
-                    jqElement: $(".owl-overlap .owl-stage"),
-                    property: "transform",
-                    range: [0, -300],
-                    regex: /translate3d\(([-\.\d]+)px, 0px, 0px\)/gm,
+    const owlOverlaps = $('.owl-overlap');
+    const owlOverlapSideContents = $('.owl-overlap__side-content');
+
+    console.log(owlOverlaps, owlOverlapSideContents);
+
+    if (owlOverlapSideContents.length === owlOverlaps.length) {
+        for (let i = 0; i < owlOverlaps.length; i++) {
+            const owl = $(`.owl-overlap[data-owl-overlap-index="${i}"]`);
+            console.log('owl', owl);
+            owl.owlCarousel({
+                loop: false,
+                margin: 10,
+                dots: false,
+                autoWidth: true,
+                nav: true,
+                onDrag: function(e) {
+                    $(".owl-overlap__side-content").addClass("drag");
                 },
-                targets: [{
-                        jqElement: $(".owl-overlap__side-content"),
-                        property: "opacity",
-                        range: [1, 0],
-                        beforeModificator: "",
-                        afterModificator: "",
-                        defaultValue: 1,
-                        cancelCallback: () => (window.innerWidth < 992),
-                    },
-                    //  {
-                    //     jqElement: $(document.body),
-                    //     property: "backgroundColor",
-                    //     range: ['#EBEFFF', '#bbcfcc'],
-                    //     beforeModificator: "",
-                    //     afterModificator: "",
-                    //     defaultValue: '#EBEFFF',
-                    //     valueInterpolation: colorInterpolation,
-                    // }
-                ],
-                events: [{
-                    jqElement: $(window),
-                    event: 'resize'
-                }]
+                onDragged: function(e) {
+                    $(".owl-overlap__side-content").removeClass("drag");
+                },
+                onInitialized: function(e) {
+                    $(this)[0].$element.find('.owl-nav').removeClass('disabled');
+                    const owlOverlapCarousels = $('.owl-overlap .owl-stage');
+                    bindStyles({
+                        source: {
+                            element: owlOverlapCarousels[i],
+                            property: "transform",
+                            range: [0, -300],
+                            regex: /translate3d\(([-\.\d]+)px, 0px, 0px\)/gm,
+                        },
+                        targets: [{
+                                element: owlOverlapSideContents[i],
+                                property: "opacity",
+                                range: [1, 0],
+                                beforeModificator: "",
+                                afterModificator: "",
+                                defaultValue: 1,
+                                cancelCallback: () => (window.innerWidth < 992),
+                            },
+                            //  {
+                            //     jqElement: $(document.body),
+                            //     property: "backgroundColor",
+                            //     range: ['#EBEFFF', '#bbcfcc'],
+                            //     beforeModificator: "",
+                            //     afterModificator: "",
+                            //     defaultValue: '#EBEFFF',
+                            //     valueInterpolation: colorInterpolation,
+                            // }
+                        ],
+                        events: [{
+                            jqElement: $(window),
+                            event: 'resize'
+                        }]
+                    });
+                    console.log("Binded");
+                },
             });
-            console.log("Binded");
-        },
-    });
+
+
+
+        }
+
+    }
+
 });
