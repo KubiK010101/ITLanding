@@ -1,5 +1,32 @@
 .page-footer {
+  &__card{
+    background: #EEF0FF;
+    box-shadow: -18px -18px 40px #F6FAFF, 18px 18px 40px rgba(0, 69, 255, 0.08);
+    border-radius: 18px;
+    padding: 60px;
 
+  }
+  &__card-article{
+    font-size: 16px;
+    line-height: 16px;
+    color: #546175;
+    font-weight: 400;
+  }
+  &__card-item{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #202F44;
+
+  }
+
+  &__card-number{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: #0045FF;
+
+  }
 }
 
 

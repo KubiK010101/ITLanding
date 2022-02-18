@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/boost.scss" afterDir="false" />
+    <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="Fixed and added boost">
+      <change afterPath="$PROJECT_DIR$/assets/img/page-footer/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/page-main/check.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/info-board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/info-board.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/nav-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/nav-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/change.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/change.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/page-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/changes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/change.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/page-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/page-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/plan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/plan.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/request.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/request.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/start-page.html" afterDir="false" />
@@ -92,7 +91,10 @@
       <workItem from="1644940507151" duration="610000" />
       <workItem from="1644968108601" duration="1824000" />
       <workItem from="1645018462222" duration="4878000" />
-      <workItem from="1645102579323" duration="6127000" />
+      <workItem from="1645102579323" duration="6181000" />
+      <workItem from="1645120990513" duration="823000" />
+      <workItem from="1645123054981" duration="1375000" />
+      <workItem from="1645182365205" duration="4947000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1644539064930</created>
@@ -129,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644590471366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed and added boost">
+      <created>1645111248978</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645111248978</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed and added boost">
+      <created>1645124031258</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645124031258</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +167,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="my first commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Fixed and added boost" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed and added boost" />
   </component>
 </project>
