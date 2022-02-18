@@ -14,7 +14,7 @@
     }
     &__list-item {
         display: inline;
-        padding-right: 54px;
+        padding-right: 44px;
         color: #202F44;
         &:hover {
             color: #202F44;
@@ -22,10 +22,10 @@
             text-decoration: none;
         }
         @media (max-width: 1199.98px) {
-            padding-right: 15px;
+            padding-right: 54px;
         }
         @media (max-width: 991.98px) {
-            margin: 0 16px;
+            // margin: 0 16px;
         }
         &:last-child {
             padding-right: 0;
