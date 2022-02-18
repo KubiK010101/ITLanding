@@ -220,3 +220,11 @@ input[type=number]::-webkit-outer-spin-button {
         color: #546175;
     }
 }
+
+input,
+button,
+form {
+    &:focus {
+        border: none;
+    }
+}
