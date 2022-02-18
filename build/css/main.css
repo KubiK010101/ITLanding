@@ -1424,6 +1424,11 @@ input[type=number]::-webkit-outer-spin-button {
     line-height: 16px;
     color: #546175; }
 
+input:focus,
+button:focus,
+form:focus {
+  border: none; }
+
 .btn, .btn-light {
   position: relative;
   outline: none !important;
@@ -3819,12 +3824,51 @@ input[type="radio"].visually-hidden {
   font-size: 24px;
   line-height: 34px;
   color: #202F44; }
+  @media (max-width: 991.98px) {
+    .page-footer__card-item {
+      font-size: 18px;
+      line-height: 20px; } }
 
 .page-footer__card-number {
   font-weight: 500;
   font-size: 32px;
   line-height: 32px;
   color: #0045FF; }
+  @media (max-width: 991.98px) {
+    .page-footer__card-number {
+      font-size: 24px;
+      line-height: 24px; } }
+
+.page-footer__list-article {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #202F44;
+  padding-bottom: 60px; }
+
+.page-footer__list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #546175;
+  list-style: none;
+  padding-left: 0; }
+
+.page-footer__list-item {
+  color: #546175;
+  padding-bottom: 16px;
+  display: block; }
+  .page-footer__list-item:hover {
+    color: #0045FF;
+    text-decoration: none; }
+
+.page-footer__bottom {
+  padding-top: 200px; }
+
+.page-footer__img {
+  width: 100%;
+  max-width: 470px;
+  height: auto; }
 
 .nav-menu__links li:nth-of-type(1), .nav-menu__links li:nth-of-type(2), .nav-menu__links li:nth-of-type(3), .nav-menu__links li:nth-of-type(4), .nav-menu__links li:nth-of-type(5) {
   opacity: 0;
@@ -4449,6 +4493,109 @@ body.no-scroll {
       height: 20px;
       left: -30px;
       top: 10px; }
+
+.projects {
+  overflow: hidden; }
+  .projects__shadow {
+    box-shadow: 0px 0px 70px rgba(32, 47, 68, 0.2); }
+
+.projects-container {
+  padding: 320px 0 298px; }
+
+.projects-card {
+  box-shadow: 0px 8px 40px 0px #202F441A;
+  box-shadow: 0px 8px 40px rgba(32, 47, 68, 0.1);
+  border-radius: 18px;
+  background: #FFFFFF;
+  border-radius: 18px;
+  width: 450px;
+  max-width: calc(100vw - 30px);
+  overflow: hidden; }
+  .projects-card__content {
+    padding: 32px; }
+  .projects-card__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .projects-card__text-wrapper {
+    margin-bottom: 24px; }
+  .projects-card__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 18px;
+    color: #202F44;
+    margin-bottom: 12px; }
+  .projects-card__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #546175; }
+  .projects-card__img-wrapper {
+    height: 400px;
+    overflow: hidden;
+    position: relative; }
+  .projects-card__img-shadow {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
+  .projects-card__img-title {
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    top: 32px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff; }
+  .projects-card__img {
+    object-fit: cover;
+    height: 100%; }
+  .projects-card__technology-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 28px; }
+  .projects-card__technology {
+    padding: 10px 16px;
+    background: #E6EDFF;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #0045FF; }
+  .projects-card__link-wrapper {
+    display: -ms-flexbox;
+    display: flex; }
+  .projects-card__link {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #0045FF; }
+    .projects-card__link::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 21px;
+      height: 12px;
+      right: -33px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      background: url("../img/page-main/card-link-arrow.svg");
+      background-size: contain;
+      background-repeat: no-repeat; }
 
 .page-main__header {
   padding-top: 178px;

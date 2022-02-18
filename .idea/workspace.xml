@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="Fixed and added boost">
-      <change afterPath="$PROJECT_DIR$/assets/img/page-footer/img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/page-main/check.svg" afterDir="false" />
+    <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="added  sections and ect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/blocks/page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/page-footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/changes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/change.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/page-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/page-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/request.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/request.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/start-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +88,8 @@
       <workItem from="1645102579323" duration="6181000" />
       <workItem from="1645120990513" duration="823000" />
       <workItem from="1645123054981" duration="1375000" />
-      <workItem from="1645182365205" duration="4947000" />
+      <workItem from="1645182365205" duration="6752000" />
+      <workItem from="1645213948310" duration="5399000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1644539064930</created>
@@ -145,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645124031258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added  sections and ect">
+      <created>1645192343522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645192343522</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +170,7 @@
     <MESSAGE value="my first commit" />
     <MESSAGE value="commit" />
     <MESSAGE value="Fixed and added boost" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed and added boost" />
+    <MESSAGE value="added  sections and ect" />
+    <option name="LAST_COMMIT_MESSAGE" value="added  sections and ect" />
   </component>
 </project>
