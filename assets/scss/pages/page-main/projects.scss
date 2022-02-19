@@ -6,15 +6,16 @@
 }
 
 .projects-container {
-    padding: 320px 0 298px;
+    padding: 200px 0 298px;
+    @media (max-width: 767.98px) {
+        padding: 0 0 50px;
+    }
 }
 
 .projects-card {
-    box-shadow: 0px 8px 40px 0px #202F441A;
     box-shadow: 0px 8px 40px rgba(32, 47, 68, 0.1);
     border-radius: 18px;
     background: #FFFFFF;
-    border-radius: 18px;
     width: 450px;
     max-width: calc(100vw - 30px);
     overflow: hidden;
@@ -107,7 +108,7 @@
             right: -33px;
             top: 50%;
             transform: translateY(-50%);
-            background: url('../img/page-main/card-link-arrow.svg');
+            background-image: url('../img/page-main/card-link-arrow.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
