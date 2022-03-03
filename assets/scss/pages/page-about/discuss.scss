@@ -1,0 +1,21 @@
+.discuss {
+    &__content {
+        padding: 120px 15px;
+        background: rgba(0, 68, 255, 0.08);
+        // opacity: 0.08;
+        border-radius: 18px;
+        @media (max-width: 991.98px) {
+            padding: 80px 15px;
+        }
+    }
+    &__title {
+        // font-size: 54px;
+        line-height: 130%;
+        color: #202F44;
+    }
+    &__description {
+        font-size: 18px;
+        line-height: 160%;
+        color: #546175;
+    }
+}

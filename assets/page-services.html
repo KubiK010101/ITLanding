@@ -1,4 +1,9 @@
-@@include('template/head.html', { "pagetitle": "Главная страница", "bodyclass": "" }) @@include('template/page-header.html',{ "active_item": "", "logged": "false" })
+<!-- PAGE HEAD -->
+@@include('template/head.html', { "pagetitle": "Главная страница", "bodyclass": "" })
+<!-- PAGE NAVBAR -->
+@@include('template/page-navbar.html')
+<!-- PAGE HEADER -->
+@@include('template/page-header.html',{ "active_item": "", "logged": "false" })
 
 <div class="app-container">
     <div class="row justify-content-center">
@@ -189,11 +194,11 @@
 
 
     <div class="row justify-content-center">
-       <div class="col-12">
-           <h3 class="page-services__title">
-               Решения для разных задач бизнеса
-           </h3>
-       </div>
+        <div class="col-12">
+            <h3 class="page-services__title">
+                Решения для разных задач бизнеса
+            </h3>
+        </div>
         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
             <div class="row no-gutters justify-content-center">
                 <div class="col-md-12 col-lg-12 col-xl-10">
@@ -213,8 +218,7 @@
                 <div class="col-md-12 col-lg-12 col-xl-10">
                     <div class="page-services__card-2">
                         <h5 class="page-services__card-2-title">
-                            Команда <br>
-                            под проект
+                            Команда <br> под проект
                         </h5>
                         <p class="page-services__card-2-sub-title">
                             Быстро подберём и выделим на проект команду или отдельных специалистов с подходящим для вашей задачи опытом
@@ -228,8 +232,7 @@
                 <div class="col-md-12 col-lg-12 col-xl-10">
                     <div class="page-services__card-2">
                         <h5 class="page-services__card-2-title">
-                            UX/UI <br>
-                            разработка
+                            UX/UI <br> разработка
                         </h5>
                         <p class="page-services__card-2-sub-title">
                             Создадим макеты интерфейсов продукта, соответствующие лучшим практикам UX-дизайна
@@ -243,8 +246,7 @@
                 <div class="col-md-12 col-lg-12 col-xl-10">
                     <div class="page-services__card-2">
                         <h5 class="page-services__card-2-title">
-                            Срочная <br>
-                            помощь
+                            Срочная <br> помощь
                         </h5>
                         <p class="page-services__card-2-sub-title">
                             Самые опытные и разносторонние программисты и аналитики для решения сложных и срочных задач
@@ -261,18 +263,5 @@
 
 
 
-
-
+<!-- PAGE FOOTER -->
 @@include('template/page-footer.html') @@include('template/popups.html')
-
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/plugins.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="js/main.min.js"></script>
-<style>
-
-</style>
-
-</body>
-
-</html>
