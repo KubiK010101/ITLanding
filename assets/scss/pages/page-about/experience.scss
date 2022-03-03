@@ -1,0 +1,47 @@
+.experience {
+    &__title {
+        // font-size: 54px;
+        line-height: 130%;
+        color: #202F44;
+    }
+    &__subtitle {
+        font-size: 18px;
+        line-height: 160%;
+        color: #546175;
+    }
+    &__cards-wrapper {
+        background: #EEF0FF;
+        box-shadow: -18px -18px 40px #F6FAFF, 18px 18px 40px rgba(0, 69, 255, 0.08);
+        border-radius: 18px;
+        padding: 60px 140px;
+        margin-top: 60px;
+        @media (max-width: 1399.98px) {
+            padding: 60px 80px;
+        }
+    }
+    &__card {
+        text-align: center;
+    }
+    &__card-title {
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 100%;
+        color: #0045FF;
+    }
+    &__card-description {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130%;
+        color: #202F44;
+        &_pb60 {
+            padding-bottom: 60px;
+        }
+    }
+    &__info {
+        margin-top: 60px;
+        max-width: 860px;
+        font-size: 28px;
+        line-height: 140%;
+        color: #202F44;
+    }
+}
