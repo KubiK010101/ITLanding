@@ -4124,7 +4124,8 @@ body.no-scroll {
               transform: none; } }
 
 .owl-overlap .owl-stage-outer {
-  overflow: visible !important; }
+  overflow: visible !important;
+  will-change: transform; }
 
 .owl-overlap .owl-nav {
   display: -ms-flexbox;

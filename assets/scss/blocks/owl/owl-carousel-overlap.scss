@@ -23,6 +23,7 @@
     }
     .owl-stage-outer {
         overflow: visible !important;
+        will-change: transform;
     }
     .owl-nav {
         display: flex;
