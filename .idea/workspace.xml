@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="added  footer  and ect">
+    <list default="true" id="66641d74-d0be-4e72-88c8-ba3588a4c4d8" name="Default Changelist" comment="ver-1">
+      <change afterPath="$PROJECT_DIR$/assets/page-services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/pages/page-services/page-services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/nav-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/nav-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/page-footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/plan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/plan.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-main/steps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-main/steps.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/start-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Windows/System32/OpenSSH/ssh.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,7 +92,14 @@
       <workItem from="1645123054981" duration="1375000" />
       <workItem from="1645182365205" duration="6752000" />
       <workItem from="1645213948310" duration="6331000" />
-      <workItem from="1645276274138" duration="5037000" />
+      <workItem from="1645276274138" duration="5817000" />
+      <workItem from="1645370580110" duration="79000" />
+      <workItem from="1645371457107" duration="15000" />
+      <workItem from="1645401960625" duration="624000" />
+      <workItem from="1645402625039" duration="5000" />
+      <workItem from="1645551465008" duration="1589000" />
+      <workItem from="1645562377219" duration="2748000" />
+      <workItem from="1646315491604" duration="6375000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1644539064930</created>
@@ -160,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645219861121</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ver-1">
+      <created>1645282347350</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645282347350</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +196,7 @@
     <MESSAGE value="Fixed and added boost" />
     <MESSAGE value="added  sections and ect" />
     <MESSAGE value="added  footer  and ect" />
-    <option name="LAST_COMMIT_MESSAGE" value="added  footer  and ect" />
+    <MESSAGE value="ver-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver-1" />
   </component>
 </project>
