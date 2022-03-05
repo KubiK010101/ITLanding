@@ -1,0 +1,173 @@
+.portfolio {
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
+    &__grid-item {
+        [data-card-link="top"] {
+            display: none;
+        }
+        [data-card-link="bottom"] {
+            display: block;
+        }
+        &:nth-child(3n) {
+            grid-column: span 2;
+            [data-card-link="top"] {
+                display: block;
+            }
+            [data-card-link="bottom"] {
+                display: none;
+            }
+            .portfolio-card__title {
+                margin-bottom: 0;
+            }
+        }
+        @media (max-width: 991.98px) {
+            grid-column: span 2;
+            &:nth-child(3n) {
+                grid-column: span 2;
+                [data-card-link="top"] {
+                    display: none;
+                }
+                [data-card-link="bottom"] {
+                    display: block;
+                }
+                .portfolio-card__title {
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+    &__filters {
+        display: flex;
+        flex-wrap: wrap;
+        @media (max-width: 1199.98px) {
+            margin-bottom: 60px;
+        }
+        @media (max-width: 991.98px) {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+    }
+    &__filters-btn {
+        padding: 20px 52px;
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        color: #0045ff;
+        @media (max-width: 1199.98px) {
+            margin-right: 16px;
+        }
+        &.active {
+            background: #0045ff;
+            color: white;
+        }
+    }
+    &__manager-card {
+        padding: 60px 80px;
+        background: rgba(0, 69, 255, 0.08);
+        border-radius: 18px;
+        margin-top: 60px;
+    }
+    &__manager-text {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 140%;
+        color: #202F44;
+        @media(max-width: 767.98px) {
+            font-size: 18px;
+        }
+    }
+}
+
+.portfolio-card {
+    box-shadow: 0px 8px 40px 0px #202f441a;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    width: 100%;
+    &__content {
+        padding: 32px;
+    }
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        font-family: "Inter", sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+        color: #202f44;
+        margin-bottom: 32px;
+    }
+    &__company {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #0045ff;
+        margin-bottom: 16px;
+    }
+    &__img-wrapper {
+        height: 500px;
+        width: 100%;
+        overflow: hidden;
+    }
+    &__img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    &__technology-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 28px;
+    }
+    &__technology {
+        padding: 10px 16px;
+        background: #e6edff;
+        border-radius: 100px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        color: #0045ff;
+    }
+    &__link-wrapper {
+        display: flex;
+        padding-right: 33px;
+    }
+    &__link {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #0045ff;
+        &::after {
+            transition: all 0.2s;
+            content: "";
+            display: block;
+            position: absolute;
+            width: 21px;
+            height: 12px;
+            right: -33px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url("../img/page-main/card-link-arrow.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        &:hover {
+            text-decoration: none;
+            opacity: 0.8;
+            &::after {
+                transform: translate(3px, -50%);
+            }
+        }
+    }
+}

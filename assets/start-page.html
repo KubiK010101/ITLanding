@@ -1,9 +1,55 @@
-<!-- PAGE HEAD -->
-@@include('template/head.html', { "pagetitle": "Главная страница", "bodyclass": "" })
-<!-- PAGE NAVBAR -->
-@@include('template/page-navbar.html')
-<!-- PAGE HEADER -->
-@@include('template/page-header.html',{ "active_item": "", "logged": "false" })
+@@include('template/head.html', { "pagetitle": "Главная страница", "bodyclass": "" }) @@include('template/page-header.html',{ "active_item": "", "logged": "false" })
+
+<div id="page-container">
+
+</div>
+
+<div class="nav">
+    <div class="app-container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-auto order-1">
+                <img src="img/logo.svg" alt="" class="nav__logo">
+            </div>
+            <div class="d-none d-md-block col-md-12 col-xl-auto order-3 order-xl-2">
+                <div class="nav__list d-flex justify-content-center mt-4 mt-xl-0">
+
+                    <a href="#" class="nav__list-item">Услуги</a>
+
+
+                    <a href="#" class="nav__list-item">Проекты</a>
+
+
+                    <a href="#" class="nav__list-item">О компании</a>
+
+
+                    <a href="#" class="nav__list-item">FAQ</a>
+
+
+                    <a href="#" class="nav__list-item">Контакты</a>
+
+                </div>
+            </div>
+            <div class="d-none d-md-block col-md-auto order-2 order-xl-3">
+                <a href="#" class="nav__number">8 (800) 550-27-58</a>
+                <button class="btn btn_sm nav__btn">Заказать звонок</button>
+            </div>
+            <div class="nav-menu__burger d-md-none">
+                <i class="fas fa-bars fa-2x"></i>
+                <i class="fas fa-times fa-2x"></i>
+            </div>
+
+            <nav class="nav-menu__content">
+                <ul class="nav-menu__links">
+                    <li class="nav-menu__link"><a href="#">Услуги</a></li>
+                    <li class="nav-menu__link"><a href="#">Проекты</a></li>
+                    <li class="nav-menu__link"><a href="#">О компании</a></li>
+                    <li class="nav-menu__link"><a href="#">FAQ</a></li>
+                    <li class="nav-menu__link"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
 
 <div class="page-main__header">
     <div class="app-container">
@@ -1207,6 +1253,147 @@
 </div>
 
 
+<div class="page-footer">
+    <div class="request">
+        <img src="img/page-footer/img-1.png" class="request__pic page-footer__pic">
+        <div class="app-container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-5">
+                    <h3 class="request__title">
+                        Создаём и транслируем тренды маркетинга
+                    </h3>
+                    <p class="request__sub-title">
+                        Смелые решения для брендов, чтобы о вас узнали все
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
 
-<!-- PAGE FOOTER -->
+                <div class="col-12 col-lg-4">
+                    <form action="#" method="POST" class="request__form">
+                        <div class="input-wrapper">
+                            <input placeholder="Имя" type="text" class="input">
+                        </div>
+                        <div class="input-wrapper">
+                            <input placeholder="Телефон" type="text" class="input">
+                        </div>
+                        <div class="request__button-wrapper">
+                            <button class="page-main__btn btn btn__mt40">Оставить заявку</button>
+                        </div>
+                    </form>
+                    <p class="request__policies">Нажимая на кнопку «Оставить заявку», вы даёте <br> согласие на <a class="request__link" href="#">политику обработки персональных данных</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-10 page-footer__card-wrapper">
+                <div class="page-footer__card">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="page-footer__card-item col-12 col-lg-auto">
+                            <p class="page-footer__card-article">
+                                Главный офис
+                            </p>
+                            г. Санкт-Петербург, пр. Непокорённых 49, БЦ «Н-49»
+                        </div>
+                        <div class="page-footer__card-item col-12 col-lg-auto ">
+                            <p class="page-footer__card-article">
+                                Главный офис
+                            </p>
+                            office@boosttechnology.ru
+                        </div>
+                        <div class="page-footer__card-item col-12 col-lg-auto ">
+                            <div class="page-footer__card-number">
+                                8 (800) 550-27-58
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row page-footer__bottom">
+            <div class="col-md-12 col-lg-4">
+                <img src="img/page-footer/img-2.png" alt="imageForFooter" class="page-footer__img">
+            </div>
+            <div class="col-md-12 col-lg-4 offset-0 offset-xl-1">
+                <p class="page-footer__list-article">
+                    Услуги
+                </p>
+                <div class="page-footer__list">
+                    <a href="#" class="page-footer__list-item">
+                        Разработка дизайна
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Создание сайта, магазина, портала для вашего бизнеса
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Приложения для мобильных устройств iOS и Android,
+                        веб-приложения
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Автоматизация бизнес-процессов
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Сопровождение и развитие
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        CEO продвижение сайтов и контекстная реклама
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Доработка сайтов и приложений
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Разработка биржевого программного обеспечения
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-2">
+                <p class="page-footer__list-article">
+                    Компания
+                </p>
+                <div class="page-footer__list">
+                    <a href="#" class="page-footer__list-item">
+                        О нас
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Команда
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Преимущества
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-1">
+                <p class="page-footer__list-article">
+                    Полезное
+                </p>
+                <div class="page-footer__list">
+                    <a href="#" class="page-footer__list-item">
+                        Портфолио
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        FAQ
+                    </a>
+                    <a href="#" class="page-footer__list-item">
+                        Контакты
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 @@include('template/page-footer.html') @@include('template/popups.html')
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<style>
+
+</style>
+
+</body>
+
+</html>
